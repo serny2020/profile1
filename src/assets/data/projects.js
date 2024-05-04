@@ -32,19 +32,14 @@ export const projects = [
     ]
   },
   {
-    name: "Guess Me Web App",
-    thumbnail: [{
-      src: "https://i.ibb.co/HXbvG5T/Screenshot-2024-05-04-120841.png",
+    name: "Truss Rendering",
+    thumbnail: {
+      src: "https://i.ibb.co/5B5mtDw/combine-Beam.png",
       // https://i.ibb.co/0mMB9rN/Screenshot-2024-05-04-122045.png",
-      alt: "guess me"
-    }, {
-      src: "https://i.ibb.co/HXbvG5T/Screenshot-2024-05-04-120841.png",
-      // https://i.ibb.co/0mMB9rN/Screenshot-2024-05-04-122045.png",
-      alt: "guess me"
-    }],
+      alt: "guess me"},
     description: [
-      "Guess me prompt the user to enter a number within a given range.",
-      "Front-end javaScript with CSS styling"
+      "3D rendering of a steel truss roof for Yangjiang Nuclear Power Station",
+      "Tekla visualization and structure analysis with SAP2000"
     ]
   }
 ];
