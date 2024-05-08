@@ -1,6 +1,11 @@
 import React from "react";
 import styles from "./ProjectDetail.module.css";
 
+const trussImg = [
+  "https://i.ibb.co/5B5mtDw/combine-Beam.png",
+  "https://i.ibb.co/0mMB9rN/Screenshot-2024-05-04-122045.png",
+]
+
 export const ProjectDetail = props => {
   const { name, thumbnail, description } = props.project;
   const projectNo = props.no.toString().padStart(2, "0");
