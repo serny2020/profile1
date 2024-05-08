@@ -24,9 +24,11 @@ export const Resume = () => {
           </div> */}
       <div>
         <Link to={{ pathname: "https://drive.google.com/file/d/1-wdpDj1D56dEKbW6whdIY1NOgE3p8kz6/view?usp=drive_link" }} target="_blank">
-          <button>
-            <span>Download PDF</span>
-          </button>
+          <div className={styles.buttons}>
+            <button style={{backgroundColor: "#7950f2", color: "#fff"}}>
+              <span>Download PDF</span>
+            </button>
+          </div>
         </Link>
       </div>
 
